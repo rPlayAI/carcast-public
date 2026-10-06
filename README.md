@@ -9,6 +9,20 @@ It is built for developers who make CarPlay apps and for teams who test CarPlay 
 
 This repository is for **releases, documentation and issues**. The source code is not public.
 
+## Demo
+
+[![CarCast on Android: video in the car, instrument cluster and Now Playing](media/carcast-android-demo.jpg)](media/carcast-android-demo.mp4)
+
+*[Watch the demo (1:24, with sound)](media/carcast-android-demo.mp4).*
+
+The demo shows CarCast on a Pixel Tablet, connected to an iPhone 13 over wireless CarPlay.
+
+1. Set up with the wizard.
+2. Connect, and the CarPlay home screen appears with the car's own LEXUS icon.
+3. Play videos from rPlayFling on the CarPlay screen.
+
+The instrument cluster runs at the same time: a navigation map with the **Now Playing** card, which updates from iAP2 as tracks change.
+
 ## Highlights
 
 ### CarPlay video playback (video in the car)
