@@ -9,6 +9,35 @@ It is built for developers who make CarPlay apps and for teams who test CarPlay 
 
 This repository is for **releases, documentation and issues**. The source code is not public.
 
+## Highlights
+
+### CarPlay video playback (video in the car)
+
+CarCast supports CarPlay's newest feature: **video playback on the car screen** (iOS 27.2 and later). CarCast tells the iPhone it is a head unit that can play video. The phone then hands the video to the car, and CarCast plays it on the CarPlay screen with its own player.
+
+- **Full session support:**
+  - The video handoff, with play, pause and stop.
+  - Buffered audio for the soundtrack.
+  - Playback position and state reported back to the phone.
+- **Like a car without internet.** The video can be fetched through the iPhone, as a real car does. Or CarCast fetches it directly when the computer is online.
+- **Works at any screen size.** Video playback can be turned on for whichever display preset you choose.
+- **Tested with apps that cast to CarPlay**, such as [rPlayFling](https://github.com/rPlayAI/rPlayFling-public).
+
+### Multiple displays
+
+A car often has more than one screen. CarCast gives the phone the **main CarPlay screen and an instrument cluster** at the same time, each with its own video stream.
+
+- **One or two cluster displays** (the Android version supports two).
+- **Cluster content:** a map, the navigation turn card, or an app view, with ETA on or off.
+- **Configurable cluster size**, shown in its own window or panel.
+
+### iAP2 media track info (Now Playing)
+
+CarCast subscribes to the iPhone's **Now Playing updates over iAP2**, as a car with a cluster or a driver display does.
+
+- **Track details:** title, artist, album, elapsed time and the app that's playing.
+- **Shown on a Now Playing card** on Android, and every update can be inspected in the Protocol Inspector on macOS.
+
 ## macOS
 
 ![CarPlay on macOS with CarCast](screenshots/macos-carplay-home.png)
