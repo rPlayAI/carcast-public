@@ -5,6 +5,7 @@ CarCast turns a Mac, an Android tablet or an Android head unit into a CarPlay he
 CarCast is a **state-of-the-art CarPlay receiver**. It already supports CarPlay's newest features: video playback in the car, multiple displays with an instrument cluster, and iAP2 Now Playing. It builds on earlier versions made for **real head units**, so it's meant for real cars, not only developer desks.
 
 - **Android head units and car owners:** a complete phone-connectivity system on the car's screen.
+- **CarPlay box and head-unit makers:** OEM licenses (see [OEM licensing](#oem-licensing)).
 - **Developers and test teams:** a CarPlay head unit on a desk, where you can see exactly what the phone sends, change how the "car" presents itself, and repeat a session as often as you need.
 
 [Report a problem](https://github.com/rPlayAI/carcast-public/issues/new/choose) ·
@@ -160,11 +161,23 @@ Requirements: an Android tablet or phone running Android 8.0 or later, and an iP
 
 ## Who it's for
 
+- **CarPlay box makers.** License CarCast as the CarPlay receiver inside your box or adapter.
 - **Android head-unit makers and installers.** Add CarPlay, AirPlay, DLNA and mirroring to an Android head unit in one app.
 - **Drivers with an Android head unit.** Get CarPlay, including video while parked, an instrument cluster and Now Playing.
 - **CarPlay app developers.** Test audio, navigation, communication and video apps on a real iPhone without a car.
 - **QA teams.** Reproduce car-only bugs on a desk and capture logs to attach to a ticket.
 - **Head-unit and accessory teams.** Compare behaviour against a reference receiver.
+
+## OEM licensing
+
+We provide **OEM licenses** to makers of **CarPlay boxes** (adapters and multimedia boxes that plug into the car) and **Android head units**. A license includes:
+
+- **The CarCast receiver for your product:** CarPlay with video playback, multiple displays, the instrument cluster and Now Playing.
+- **Optionally, the rest of the Android stack:** AirPlay, DLNA and USB mirroring.
+- **Branding and vehicle configuration:** car name, OEM icon, display and cluster layouts.
+- **Engineering support for bring-up.** The Protocol Inspector is included, to find connection problems on your hardware.
+
+For OEM licensing, [open an issue](https://github.com/rPlayAI/carcast-public/issues/new?title=OEM%20licensing) titled *OEM licensing*, and we'll get in touch.
 
 ## Status
 
