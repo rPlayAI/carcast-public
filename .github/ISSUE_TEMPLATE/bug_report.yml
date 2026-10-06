@@ -1,0 +1,58 @@
+name: Problem report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what you saw instead.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - macOS
+        - Android
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: CarCast version
+      placeholder: "macOS 1.0.1 / Android 0.3.4"
+    validations:
+      required: true
+  - type: input
+    id: host
+    attributes:
+      label: Mac or Android device, OS version
+      placeholder: "MacBook Air M2, macOS 26 / Pixel Tablet, Android 16"
+  - type: input
+    id: phone
+    attributes:
+      label: iPhone model and iOS version
+      placeholder: "iPhone 13, iOS 27.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      multiple: true
+      options:
+        - Wired CarPlay (USB)
+        - Wireless CarPlay (Bluetooth + Wi-Fi)
+        - Instrument cluster
+        - Audio
+        - Video in the car
+        - Protocol Inspector
+        - Mirroring / AirPlay / DLNA (Android)
+        - Other
+  - type: textarea
+    id: more
+    attributes:
+      label: Screenshots, logs, anything else
+      description: On Android, Settings › Share logs saves CarCast's log after a failed connect.
