@@ -20,8 +20,10 @@ This repository is for **releases, documentation and issues**. The source code i
 | **macOS** | Available | CarPlay receiver and Protocol Inspector |
 | **Windows** | Coming soon | CarPlay receiver and Protocol Inspector |
 | **Android** (tablets and Android head units) | Available | CarPlay, plus AirPlay, DLNA and USB mirroring |
+| **Embedded Linux** (e.g. Allwinner V851S) | OEM firmware license | CarPlay receiver firmware for CarPlay boxes and adapters |
 
 - **Desktop (macOS and Windows).** These versions focus on CarPlay and do not include AirPlay. AirPlay receiving and iPhone mirroring on the desktop come from our [rPlay](https://github.com/rPlayAI/rplay-linux) and [rPlayHub](https://github.com/rPlayAI/rPlayHub) projects.
+- **Embedded Linux.** CarCast runs as firmware on low-cost SoCs such as the Allwinner V851S, the chips inside CarPlay boxes and wireless adapters. It's available to device makers under an OEM firmware license (see [OEM licensing](#oem-licensing)).
 - **Android.** This version combines CarPlay with an AirPlay receiver, a DLNA renderer and USB screen mirroring, which makes it a complete phone-connectivity solution for **Android head units**:
   - CarPlay for iPhones.
   - Screen mirroring with Bluetooth control of the phone.
@@ -170,7 +172,12 @@ Requirements: an Android tablet or phone running Android 8.0 or later, and an iP
 
 ## OEM licensing
 
-We provide **OEM licenses** to makers of **CarPlay boxes** (adapters and multimedia boxes that plug into the car) and **Android head units**. A license includes:
+We provide **OEM licenses** to makers of **CarPlay boxes** (adapters and multimedia boxes that plug into the car) and **Android head units**.
+
+- **Embedded Linux firmware:** for boxes and adapters built on SoCs such as the Allwinner V851S.
+- **Android app or system integration:** for Android head units and Android-based boxes.
+
+A license includes:
 
 - **The CarCast receiver for your product:** CarPlay with video playback, multiple displays, the instrument cluster and Now Playing.
 - **Optionally, the rest of the Android stack:** AirPlay, DLNA and USB mirroring.
