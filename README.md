@@ -1,6 +1,6 @@
 # CarCast
 
-CarCast turns a Mac, an Android tablet or an Android head unit into a CarPlay head unit. Connect an iPhone and CarPlay runs on your desktop or tablet, with no car and no head-unit hardware.
+CarCast turns a Mac, an Android tablet or an Android head unit into a CarPlay head unit. Connect an iPhone and CarPlay runs on the car's screen, on your desktop or on a tablet.
 
 CarCast is a **state-of-the-art CarPlay receiver**. It already supports CarPlay's newest features: video playback in the car, multiple displays with an instrument cluster, and iAP2 Now Playing. It builds on earlier versions made for **real head units**, so it's meant for real cars, not only developer desks.
 
