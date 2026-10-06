@@ -1,6 +1,6 @@
 # CarCast
 
-CarCast turns a Mac or an Android tablet into a CarPlay head unit. Connect an iPhone and CarPlay runs on your desktop or tablet, with no car and no head-unit hardware.
+CarCast turns a Mac, an Android tablet or an Android head unit into a CarPlay head unit. Connect an iPhone and CarPlay runs on your desktop or tablet, with no car and no head-unit hardware.
 
 It is built for developers who make CarPlay apps and for teams who test CarPlay integrations. You can see exactly what the phone sends, change how the "car" presents itself, and repeat a session as often as you need.
 
@@ -8,6 +8,21 @@ It is built for developers who make CarPlay apps and for teams who test CarPlay 
 [Release notes](docs/releases.md)
 
 This repository is for **releases, documentation and issues**. The source code is not public.
+
+## Platforms
+
+| Platform | Status | What's included |
+|---|---|---|
+| **macOS** | Available | CarPlay receiver and Protocol Inspector |
+| **Windows** | Coming soon | CarPlay receiver and Protocol Inspector |
+| **Android** (tablets and Android head units) | Available | CarPlay, plus AirPlay, DLNA and USB mirroring |
+
+- **Desktop (macOS and Windows).** These versions focus on CarPlay and do not include AirPlay. AirPlay receiving and iPhone mirroring on the desktop come from our [rPlay](https://github.com/rPlayAI/rplay-linux) and [rPlayHub](https://github.com/rPlayAI/rPlayHub) projects.
+- **Android.** This version combines CarPlay with an AirPlay receiver, a DLNA renderer and USB screen mirroring, which makes it a complete phone-connectivity solution for **Android head units**:
+  - CarPlay for iPhones.
+  - Screen mirroring with Bluetooth control of the phone.
+  - Video and music pushed from iPhones over AirPlay.
+  - Casts from Android phones and video apps over DLNA.
 
 ## Demo
 
@@ -148,11 +163,11 @@ Requirements: an Android tablet or phone running Android 8.0 or later, and an iP
 
 ## Status
 
-CarCast is in active development on macOS and Android. Downloads will be posted under [Releases](https://github.com/rPlayAI/carcast-public/releases).
+CarCast is in active development on macOS and Android; a Windows version is coming. Downloads will be posted under [Releases](https://github.com/rPlayAI/carcast-public/releases).
 
 ## Reporting a problem
 
-Please [open an issue](https://github.com/rPlayAI/carcast-public/issues/new/choose) with your platform (macOS or Android),
+Please [open an issue](https://github.com/rPlayAI/carcast-public/issues/new/choose) with your platform (macOS, Android or Windows),
 the CarCast version, your iPhone model and iOS version, and a screenshot if you can. On Android, *Settings › Share logs*
 saves the log from a failed connect.
 
