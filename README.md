@@ -2,7 +2,10 @@
 
 CarCast turns a Mac, an Android tablet or an Android head unit into a CarPlay head unit. Connect an iPhone and CarPlay runs on your desktop or tablet, with no car and no head-unit hardware.
 
-It is built for developers who make CarPlay apps and for teams who test CarPlay integrations. You can see exactly what the phone sends, change how the "car" presents itself, and repeat a session as often as you need.
+CarCast is a **state-of-the-art CarPlay receiver**. It already supports CarPlay's newest features: video playback in the car, multiple displays with an instrument cluster, and iAP2 Now Playing. It builds on earlier versions made for **real head units**, so it's meant for real cars, not only developer desks.
+
+- **Android head units and car owners:** a complete phone-connectivity system on the car's screen.
+- **Developers and test teams:** a CarPlay head unit on a desk, where you can see exactly what the phone sends, change how the "car" presents itself, and repeat a session as often as you need.
 
 [Report a problem](https://github.com/rPlayAI/carcast-public/issues/new/choose) ·
 [Release notes](docs/releases.md)
@@ -157,6 +160,8 @@ Requirements: an Android tablet or phone running Android 8.0 or later, and an iP
 
 ## Who it's for
 
+- **Android head-unit makers and installers.** Add CarPlay, AirPlay, DLNA and mirroring to an Android head unit in one app.
+- **Drivers with an Android head unit.** Get CarPlay, including video while parked, an instrument cluster and Now Playing.
 - **CarPlay app developers.** Test audio, navigation, communication and video apps on a real iPhone without a car.
 - **QA teams.** Reproduce car-only bugs on a desk and capture logs to attach to a ticket.
 - **Head-unit and accessory teams.** Compare behaviour against a reference receiver.
