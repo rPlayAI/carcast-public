@@ -87,9 +87,31 @@ Requirements: a Mac with Apple silicon or Intel, an iPhone with CarPlay enabled,
 
 *CarPlay on a Pixel Tablet, with the vehicle showing a custom OEM icon (LEXUS).*
 
-| Home | Settings |
+### Home
+
+Each mode has its own tab: **CarPlay**, **Mirroring**, **AirPlay** and **DLNA**.
+
+| CarPlay | Mirroring |
 |---|---|
-| ![CarCast home on Android](screenshots/android-home.png) | ![CarCast settings on Android](screenshots/android-settings.png) |
+| ![CarPlay tab](screenshots/android-home-carplay.png) | ![Mirroring tab](screenshots/android-home-mirroring.png) |
+| **AirPlay** | **DLNA** |
+| ![AirPlay tab](screenshots/android-home-airplay.png) | ![DLNA tab](screenshots/android-home-dlna.png) |
+
+### Settings
+
+| Settings | Set up CarPlay (wizard) |
+|---|---|
+| ![Settings](screenshots/android-settings.png) | ![Setup wizard](screenshots/android-setup-wizard.png) |
+| **Display:** resolution, video playback, instrument cluster size and content, two cluster streams, Now Playing card, knob input | **Wireless:** how the iPhone joins Wi-Fi after Bluetooth (this device's network, a private hotspot, a mobile hotspot or Wi-Fi Direct at 5 GHz) |
+| ![Display settings](screenshots/android-settings-display.png) | ![Wireless settings](screenshots/android-settings-wireless.png) |
+| **Car:** the car name and logo the iPhone shows in CarPlay | **Phones:** paired iPhones, pairing and discoverability |
+| ![Car settings](screenshots/android-settings-car.png) | ![Phones](screenshots/android-settings-phones.png) |
+| **AirPlay:** receiver name, mirroring resolution, password, full screen, start at boot | **DLNA:** receiver name, UPnP AV version |
+| ![AirPlay settings](screenshots/android-settings-airplay.png) | ![DLNA settings](screenshots/android-settings-dlna.png) |
+| **General:** which modes are enabled | |
+| ![General settings](screenshots/android-settings-general.png) | |
+
+### Features
 
 - **Wired and wireless CarPlay.** Connect over USB, or pair over Bluetooth and hand off to Wi-Fi.
 - **Several phones.** Pair more than one iPhone and switch between them from the home screen.
