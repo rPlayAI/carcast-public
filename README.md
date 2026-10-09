@@ -1,6 +1,6 @@
 # CarCast
 
-CarCast turns a Mac, an Android tablet or an Android head unit into a CarPlay head unit. Connect an iPhone and CarPlay runs on the car's screen, on your desktop or on a tablet.
+CarCast turns a Windows PC, a Mac, an Android tablet or an Android head unit into a CarPlay head unit. Connect an iPhone and CarPlay runs on the car's screen, on your desktop or on a tablet.
 
 CarCast is built on an existing code base that has **shipped in millions of wireless CarPlay boxes and dongles**. On that foundation it is a **state-of-the-art CarPlay receiver** that already supports CarPlay's newest features: video playback in the car, multiple displays with an instrument cluster, and iAP2 Now Playing. Its roots are in **real head units**, so it's meant for real cars, not only developer desks.
 
@@ -18,7 +18,7 @@ This repository is for **releases, documentation and issues**. The source code i
 | Platform | Status | What's included |
 |---|---|---|
 | **macOS** | Available | CarPlay receiver and Protocol Inspector |
-| **Windows** | Coming soon | CarPlay receiver and Protocol Inspector |
+| **Windows** | Available | CarPlay receiver and Protocol Inspector |
 | **Android** (tablets and Android head units) | Available | CarPlay, plus AirPlay, DLNA and USB mirroring |
 | **Embedded Linux** (e.g. Allwinner V851S) | OEM firmware license | CarPlay receiver firmware for CarPlay boxes and adapters |
 
@@ -116,6 +116,26 @@ CarCast subscribes to the iPhone's **Now Playing updates over iAP2**, as a car w
 
 Requirements: a Mac with Apple silicon or Intel, an iPhone with CarPlay enabled, and a USB cable.
 
+## Windows
+
+![CarPlay on Windows 11 with CarCast](screenshots/windows-desktop-carplay.png)
+
+*CarPlay from an iPhone 12 running live on Windows 11 with CarCast. The dedicated CarPlay screen features a top-aligned companion toolbar with Home, Back, knob rotary controls, and screenshot/recording actions.*
+
+### The app
+
+| Desktop Overview | CarPlay Display | Main Control |
+|---|---|---|
+| ![Desktop](screenshots/windows-desktop-carplay.png) | ![CarPlay](screenshots/windows-carplay-home.png) | ![Control](screenshots/windows-app-home.png) |
+
+- **Wired CarPlay over USB CDC-NCM:** Connect an iPhone via USB cable and CarPlay starts automatically in a native window with low latency.
+- **Top-Aligned Companion Toolbar:** Floating, rounded pill matching the macOS layout with fast access to Home, Back, Rotary knob controls, and screenshot tools.
+- **CarPlay Video Playback:** Multi-threaded FFmpeg engine with H.264 video decoding, NV12 rendering, and resampled 48kHz audio.
+- **Instrument Cluster Display:** Dedicated cluster display window support for turn-by-turn navigation cards and maps.
+- **Protocol & Session Inspector:** Real-time diagnostics for iAP2 packets, RTSP exchanges, and AirPlay stream telemetry.
+
+Requirements: a PC running Windows 11 or Windows 10, an iPhone with CarPlay enabled, and a USB cable.
+
 ## Android
 
 ![CarPlay on an Android tablet](screenshots/android-carplay-home.png)
@@ -188,11 +208,19 @@ For OEM licensing, [open an issue](https://github.com/rPlayAI/carcast-public/iss
 
 ## Status
 
+<<<<<<< HEAD
 CarCast is in active development on macOS and Android; a Windows version is coming. Downloads will be posted under [Releases](https://github.com/rPlayAI/carcast-public/releases).
 
 ## Reporting a problem
 
 Please [open an issue](https://github.com/rPlayAI/carcast-public/issues/new/choose) with your platform (macOS, Android or Windows),
+=======
+CarCast is in active development on Windows, macOS and Android. Downloads will be posted under [Releases](https://github.com/rPlayAI/carcast-public/releases).
+
+## Reporting a problem
+
+Please [open an issue](https://github.com/rPlayAI/carcast-public/issues/new/choose) with your platform (Windows, macOS or Android),
+>>>>>>> 7921dc9 (Windows 11: screenshots of desktop, CarPlay session, and app controls)
 the CarCast version, your iPhone model and iOS version, and a screenshot if you can. On Android, *Settings › Share logs*
 saves the log from a failed connect.
 
