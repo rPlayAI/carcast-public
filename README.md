@@ -134,7 +134,11 @@ Requirements: a Mac with Apple silicon or Intel, an iPhone with CarPlay enabled,
 - **Instrument Cluster Display:** Dedicated cluster display window support for turn-by-turn navigation cards and maps.
 - **Protocol & Session Inspector:** Real-time diagnostics for iAP2 packets, RTSP exchanges, and AirPlay stream telemetry.
 
-Requirements: a PC running Windows 11 or Windows 10, an iPhone with CarPlay enabled, and a USB cable.
+Requirements: a PC running Windows 11 or Windows 10 (64-bit), an iPhone with CarPlay enabled, and a USB cable.
+
+### Windows Installation
+
+Download and run the self-contained installer **`CarCast-Setup-1.0.0-x64.exe`** (available under Releases). The setup wizard bundles all required runtime libraries (FFmpeg codecs, SDL2 audio/video, libimobiledevice, Apple Bonjour) and automatically configures the necessary USB filter drivers with desktop and Start Menu shortcuts.
 
 ## Android
 
