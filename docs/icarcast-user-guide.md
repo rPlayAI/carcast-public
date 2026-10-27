@@ -108,6 +108,11 @@ screen to CarCast: on the iPhone, open Control Center › **Screen Mirroring** a
 - **Beside CarPlay** (iOS 27 lets an iPhone mirror while it runs CarPlay), the mirror is a window over CarPlay. The
   toolbar beside the window (in blue) switches it between **picture in picture**, **split** (CarPlay on the left, the
   mirror on the right) and **full screen**; drag the toolbar or the window to move it, pinch the window to resize it.
+- **Control the iPhone from the screen.** Tap on the mirror and the tap lands on the iPhone; the toolbar also has
+  the iPhone's **Home**, **App Switcher**, volume, **Siri** and **Lock**. It needs iCarCast open on the iPhone (in the
+  background is fine) and Settings › Accessibility › **Zoom** on there. An iPhone that started CarPlay on this screen
+  with **Connect** is controlled right away; otherwise open iCarCast on the iPhone once and tap **Allow** (it
+  remembers the screen). If the screen says to turn on Zoom or to allow it, do that on the iPhone.
 - The sound comes with the mirror. It plays a quarter of a second behind the picture, which keeps it smooth on a busy
   Wi-Fi.
 - To end it, stop Screen Mirroring on the iPhone.
@@ -231,6 +236,7 @@ iPad on car power) or **Bluetooth** (your car) › action **Open App › CarCast
 | **CarPlay didn't start** / **CarPlay hasn't started** | Check the iPhone is joined to a Wi-Fi network (Personal Hotspot doesn't work), then tap the button again. |
 | **CarPlay can't start on "…"** | That network can't be used for This iPhone. Join another one (your travel router, or a Wi-Fi with a password), tap This iPhone. |
 | **AirPlay mirroring doesn't connect** | Try again: the first or second try may fail. Check Settings › Modes › AirPlay is on. |
+| **Taps on the mirror do nothing** | On the iPhone: iCarCast open (in the background is fine), Settings › Accessibility › Zoom on, and the screen allowed (use Connect first, or open iCarCast and tap Allow). |
 | **AirPlay sound is choppy** | Move the router closer, or keep fewer devices on it; the mirror's video and sound share the Wi-Fi with CarPlay. |
 | **The iPhone can't join a Wi-Fi network any more** after using This iPhone ("Unable to join", or a password is asked on a network that has none) | See [If a Wi-Fi network stopped working](#if-a-wi-fi-network-stopped-working) below. |
 | CarPlay worked before, now never starts | Restart the iPhone. |
