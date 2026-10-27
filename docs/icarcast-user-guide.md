@@ -113,6 +113,16 @@ screen to CarCast: on the iPhone, open Control Center › **Screen Mirroring** a
   background is fine) and Settings › Accessibility › **Zoom** on there. An iPhone that started CarPlay on this screen
   with **Connect** is controlled right away; otherwise open iCarCast on the iPhone once and tap **Allow** (it
   remembers the screen). If the screen says to turn on Zoom or to allow it, do that on the iPhone.
+
+  **Turning on Zoom** (on the iPhone): Settings › Accessibility › **Zoom**, then switch **Zoom** on. Zoom itself
+  only magnifies when you double-tap with three fingers, so it doesn't change how the iPhone looks; iOS just needs it
+  on to take touches from another screen. Apple's guide:
+  [Zoom in on the iPhone screen](https://support.apple.com/guide/iphone/zoom-in-iph3e2e367e/ios). In iCarCast,
+  Settings › Modes › **How to turn on Zoom** opens it too, and **AirPlay control** there turns control on or off.
+
+  | Settings › Accessibility › Zoom | Zoom on |
+  |---|---|
+  | ![Accessibility settings with Zoom](../screenshots/iphone-zoom-accessibility.png) | ![Zoom switched on](../screenshots/iphone-zoom-on.png) |
 - The sound comes with the mirror. It plays a quarter of a second behind the picture, which keeps it smooth on a busy
   Wi-Fi.
 - To end it, stop Screen Mirroring on the iPhone.
