@@ -12,11 +12,12 @@ CarCast runs on an iPad or an iPhone as a wireless CarPlay screen (**iCarCast** 
 
 | Device | What it does |
 |---|---|
-| **iPad** | **CarPlay receiver.** The iPad becomes the car's screen for an iPhone on the same Wi-Fi or on the iPhone's Personal Hotspot. |
+| **iPad** | **CarPlay receiver.** The iPad becomes the car's screen for an iPhone on the same Wi-Fi (in the car, a travel router both join). |
 | **iPhone** | **CarPlay receiver**, like the iPad. |
 | | **This iPhone:** CarPlay on the same iPhone, full screen, with no second device. |
 | | **Connect:** finds the CarCast screens on this Wi-Fi (for example an iPad running CarCast) and starts CarPlay from this iPhone on the one you pick. |
-| **iPad or iPhone** | **Android Auto (experimental):** the same screen shows Android Auto from an Android phone. Off by default: Settings › Modes. |
+| **iPad or iPhone** | **AirPlay:** an iPhone, iPad or Mac mirrors its screen here, alone or as a window beside CarPlay (picture in picture, split or full), with its sound; apps' AirPlay video (YouTube...) plays here too. |
+| | **Android Auto (experimental):** the same screen shows Android Auto from an Android phone. Off by default: Settings › Modes. |
 
 ## Settings
 
@@ -35,12 +36,14 @@ CarCast runs on an iPad or an iPhone as a wireless CarPlay screen (**iCarCast** 
 - **Android Auto.** Turn it on in Settings › Modes and an **Android Auto** button appears. Install the [CarCast Launcher](https://github.com/rPlayAI/tarplay-public/releases/latest) on the Android phone (it starts Android Auto's head unit server and announces the phone), put both on the same Wi-Fi (or the iPad on the phone's hotspot) and tap the button: CarCast finds the phone and Android Auto runs on the iPad with touch and sound, no USB or Bluetooth. CarPlay and Android Auto can both stay on, or either one alone. See [Android Auto](icarcast-user-guide.md#android-auto).
 - **Each device is its own car.** It's named `CarCast-XXXX` and keeps that identity across reinstalls, so the iPhone asks to allow it once.
 
-Requirements: iOS or iPadOS 15 or later (tested down to iPadOS 16 on an iPad Pro 9.7"), Wi-Fi or Personal Hotspot, and an iPhone with CarPlay enabled.
+Requirements: iOS or iPadOS 15 or later (tested down to iPadOS 16 on an iPad Pro 9.7"), a Wi-Fi network the iPhone joins (in the car, a travel router; the iPhone's Personal Hotspot doesn't work), and an iPhone with CarPlay enabled.
 
 ## Wi-Fi and networks
 
-Which network setup works depends on where you are: at home, both devices on the same Wi-Fi; in the car, the iPhone's
-**Personal Hotspot**, with Wi-Fi switched on. Read the **[Wi-Fi and network guide](ios-network-guide.md)** before
+Which network setup works depends on where you are: at home, both devices on the same Wi-Fi; in the car, a **travel
+router** (a small Wi-Fi access point on the car's USB, no internet needed) that the iPhone and the iPad join. The
+iPhone's own Personal Hotspot doesn't work: iOS starts wireless CarPlay only while the iPhone is joined to a network.
+Read the **[Wi-Fi and network guide](ios-network-guide.md)** before
 the first drive; it covers This iPhone, an iPad as the screen, Connect, and what to do when CarPlay doesn't start.
 
 ## Installing
