@@ -106,8 +106,12 @@ screen to CarCast: on the iPhone, open Control Center › **Screen Mirroring** a
 
 - **Alone**, the mirror fills the screen.
 - **Beside CarPlay** (iOS 27 lets an iPhone mirror while it runs CarPlay), the mirror is a window over CarPlay. The
-  toolbar beside the window (in blue) switches it between **picture in picture**, **split** (CarPlay on the left, the
-  mirror on the right) and **full screen**; drag the toolbar or the window to move it, pinch the window to resize it.
+  toolbar beside the window switches it between **picture in picture**, **split** (CarPlay on the left, the mirror on
+  the right) and **full screen**; drag its handle (top) to move the window, which stays where you drop it, and pinch
+  the window to resize it. Settings › Display › **Mirror toolbar** puts the toolbar right (the default), left, above,
+  below, or hides it.
+
+  ![An iPhone mirrored beside CarPlay on an iPad, with the toolbar](../screenshots/ipad-airplay-mirror-beside-carplay.png)
 - **Control the iPhone from the screen.** Tap on the mirror and the tap lands on the iPhone; the toolbar also has
   the iPhone's **Home**, **App Switcher**, volume, **Siri** and **Lock**. It needs iCarCast open on the iPhone (in the
   background is fine) and Settings › Accessibility › **Zoom** on there. An iPhone that started CarPlay on this screen
