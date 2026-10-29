@@ -30,8 +30,9 @@ Unplugging and plugging the cable back in is fine: CAR# keeps running and CarPla
 3. To skip iOS's "Join Wi-Fi?" prompt, join the box's Wi-Fi in **Settings › Wi-Fi** first.
 4. Tap **Start**. If iOS asks to join the box's Wi-Fi, tap **Join**. iOS asks this each time CAR# joins for you.
 
-An iPhone **without cellular** (no SIM) may drop after about 30 seconds when a known Wi-Fi network with internet is in
-range: iOS leaves the box's Wi-Fi, which has no internet, for the known one. An iPhone with cellular stays on the box.
+On some wireless dongles CarPlay can drop in the first minute, about 30-40 seconds after it starts. CAR# reconnects by
+itself (iOS may ask to join the box's Wi-Fi again). Once it gets past the first minute it usually stays. If it keeps
+dropping, use USB.
 
 ## Mirroring the iPhone's screen to the car
 
@@ -66,7 +67,7 @@ open it again and tap **Start**.
 |---|---|
 | Nothing on the car's screen over USB, and CAR# asks to join Wi-Fi | The car didn't start CarPlay on the cable. Tap Cancel, unplug, and plug in again. If it still doesn't work, turn the car (or head unit) off and on. This can happen after CAR# was closed while CarPlay was running. |
 | iOS keeps asking to join the box's Wi-Fi | Join it once in Settings › Wi-Fi, then tap Start. |
-| CarPlay drops after about 30 s on a wireless box | See the note about iPhones without cellular above. |
+| CarPlay drops after about 30-40 s on a wireless box | CAR# reconnects by itself; after the first minute it usually stays. If it keeps dropping, use USB, and send us the logs. |
 | "To switch to …, close CAR#" | See [Switching between USB and a wireless box](#switching-between-usb-and-a-wireless-box). |
 | The phone's screen is black, or only shows a status page | Normal: CarPlay is on the car's screen. Turn on Settings › Show CarPlay on this iPhone to see it on the phone too. |
 
