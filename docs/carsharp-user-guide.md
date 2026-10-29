@@ -33,6 +33,17 @@ Unplugging and plugging the cable back in is fine: CAR# keeps running and CarPla
 An iPhone **without cellular** (no SIM) may drop after about 30 seconds when a known Wi-Fi network with internet is in
 range: iOS leaves the box's Wi-Fi, which has no internet, for the known one. An iPhone with cellular stays on the box.
 
+## Mirroring the iPhone's screen to the car
+
+Once CarPlay is on the car's screen, CAR# can also show the whole iPhone screen there by AirPlay (any app, including
+video):
+
+1. Open **Control Center** (swipe down from the top right corner).
+2. Tap **Screen Mirroring** and choose **CAR#-xxxx (AirPlay)**.
+3. **The first try usually fails.** Tap Screen Mirroring and choose CAR# again: the second try connects.
+
+To go back to CarPlay, open Control Center › Screen Mirroring › **Stop Mirroring**.
+
 ## Settings
 
 | Setting | What it does |
