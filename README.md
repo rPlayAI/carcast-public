@@ -4,6 +4,8 @@
 [Wi-Fi and network guide](docs/ios-network-guide.md) · [Android Auto on iPad](docs/icarcast-user-guide.md#android-auto) ·
 [If a Wi-Fi network stopped working](docs/icarcast-user-guide.md#if-a-wi-fi-network-stopped-working)
 
+**CAR# (CarPlay adapter on the iPhone, beta):** [User guide](docs/carsharp-user-guide.md)
+
 CarCast turns a Windows PC, a Mac, an iPad, an iPhone, an Android tablet or an Android head unit into a CarPlay head unit. Connect an iPhone and CarPlay runs on the car's screen, on your desktop or on a tablet.
 
 CarCast is built on an existing code base that has **shipped in millions of wireless CarPlay boxes and dongles**. On that foundation it is a **state-of-the-art CarPlay receiver** that already supports CarPlay's newest features: video playback in the car, multiple displays with an instrument cluster, the CarPlay Ultra cluster, and iAP2 Now Playing. Its roots are in **real head units**, so it's meant for real cars, not only developer desks.
