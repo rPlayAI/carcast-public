@@ -24,8 +24,9 @@ Unplugging and plugging the cable back in is fine: CAR# keeps running and CarPla
 ## Quick start (wireless CarPlay box)
 
 1. Unplug the USB cable.
-2. If you know the box's Wi-Fi name and password, enter them in **Settings › Box Wi-Fi**. Otherwise CAR# learns them
-   from the box. The password must be exactly right, or the iPhone can't join.
+2. Enter the box's Wi-Fi name and password in **Settings › Box Wi-Fi**. On a CarPlay dongle the name is usually printed
+   on its label or shown on the car's screen, such as **smartBox-xxxx**, and the password is usually **88888888** or
+   **12345678**. Otherwise CAR# learns them from the box. The password must be exactly right, or the iPhone can't join.
 3. To skip iOS's "Join Wi-Fi?" prompt, join the box's Wi-Fi in **Settings › Wi-Fi** first.
 4. Tap **Start**. If iOS asks to join the box's Wi-Fi, tap **Join**. iOS asks this each time CAR# joins for you.
 
@@ -37,7 +38,7 @@ range: iOS leaves the box's Wi-Fi, which has no internet, for the known one. An 
 | Setting | What it does |
 |---|---|
 | **Box address** | **Automatic** (empty, the default): USB when the iPhone is plugged into the car, else a box over Wi-Fi. **USB**: always the cable, never Wi-Fi. An IP address: a box at that address. |
-| **Box Wi-Fi** | The wireless box's Wi-Fi name and password. **Forget** (in the Wi-Fi panel) clears it. |
+| **Box Wi-Fi** | The wireless box's Wi-Fi name and password. A CarPlay dongle's is usually like **smartBox-xxxx**, with the password **88888888** or **12345678**. **Forget** (in the Wi-Fi panel) clears it. |
 | **Join the box's Wi-Fi** | On: CAR# asks iOS to join the box's Wi-Fi. Off: you join it yourself in Settings › Wi-Fi. |
 | **Show CarPlay on this iPhone** | Off by default, which saves battery: the phone shows a status page and the car still gets everything. On: CarPlay also shows on the phone, in landscape. |
 | **Wi-Fi box: USB's sequence (beta)** | Uses the same connection method for wireless boxes as for USB. Applies after CAR# is closed and opened again. |
