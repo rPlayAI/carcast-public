@@ -53,6 +53,18 @@ On some wireless dongles CarPlay can drop in the first minute, about 30-40 secon
 itself (iOS may ask to join the box's Wi-Fi again). Once it gets past the first minute it usually stays. If it keeps
 dropping, use USB.
 
+### A car with its own wireless CarPlay
+
+Some cars have wireless CarPlay built in and their own Wi-Fi (Mercedes **MBUX**, for example). CAR# can use that Wi-Fi
+like a dongle's: join the car's Wi-Fi, then tap **Start**. CAR# gets the car's Wi-Fi password from iOS, which already
+knows it, so you don't have to type it.
+
+Some factory wireless head units only accept the iPhone they set up over Bluetooth, and CAR# can't do that part. If
+CAR# stays on **Connecting to …** with such a car, use **USB**.
+
+To check which Wi-Fi and password CAR# is using, tap the **Wi-Fi** button: it shows the joined network, the box's or
+car's Wi-Fi with its saved password, and which car CAR# reached. **Copy** puts it all on the clipboard.
+
 ## Mirroring the iPhone's screen to the car
 
 Once CarPlay is on the car's screen, CAR# can also show the whole iPhone screen there by AirPlay (any app, including
@@ -63,7 +75,8 @@ video):
 3. **The first try usually fails.** Tap Screen Mirroring and choose CAR# again: the second try connects.
 
 While mirroring, the bar on the car's screen has the iPhone's own buttons (Home, app switcher, volume, Siri, lock)
-and the layouts: picture in picture, split, and full screen. In picture in picture, drag the handle sideways to move
+and the layouts: picture in picture, split, and full screen. In picture in picture the bar sits beside the iPhone's
+window and moves with it: drag the handle sideways to move
 the iPhone's window.
 
 To go back to CarPlay, open Control Center › Screen Mirroring › **Stop Mirroring**.
