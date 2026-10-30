@@ -4,6 +4,14 @@ CAR# (CarSharp) is a CarPlay adapter that runs on your iPhone. CarPlay runs on t
 to your car's screen: over the car's **USB CarPlay port**, or through a **wireless CarPlay box** (a dongle plugged into
 the car). The car shows CarPlay as usual, with touch, sound, Siri and Maps.
 
+Because CAR# is the adapter, it can also add its own content on top of CarPlay:
+
+- **Video:** cast from YouTube or other video apps by AirPlay or DLNA.
+- **The iPhone's whole screen:** mirrored beside CarPlay or in full screen, and controlled from the car's screen.
+- **A toolbar:** CAR#'s own bar on the car's screen.
+
+A plain CarPlay adapter only passes the iPhone's CarPlay through.
+
 CAR# is in beta on TestFlight (invites go to supporters). It needs iOS 15 or later and an iPhone with CarPlay enabled
 (Settings › General › CarPlay).
 
