@@ -59,8 +59,16 @@ Some cars have wireless CarPlay built in and their own Wi-Fi (Mercedes **MBUX**,
 like a dongle's: join the car's Wi-Fi, then tap **Start**. CAR# gets the car's Wi-Fi password from iOS, which already
 knows it, so you don't have to type it.
 
-Some factory wireless head units only accept the iPhone they set up over Bluetooth, and CAR# can't do that part. If
-CAR# stays on **Connecting to …** with such a car, use **USB**.
+Some factory wireless head units only accept the iPhone they set up over Bluetooth. CAR# can't do the Bluetooth part,
+but it can take over once the car has done it with your iPhone:
+
+1. Let wireless CarPlay connect as usual, or pick your iPhone in the car's list of phones. Wait until CarPlay shows on
+   the car's screen.
+2. Open CAR# and tap **Start**. CAR# takes the car over from the iPhone's own CarPlay. It can take up to a minute;
+   leave the car's screen alone meanwhile (picking the iPhone again there gives the car back to the iPhone's own
+   CarPlay).
+
+If CAR# still stays on **Connecting to …**, use **USB**.
 
 To check which Wi-Fi and password CAR# is using, tap the **Wi-Fi** button: it shows the joined network, the box's or
 car's Wi-Fi with its saved password, and which car CAR# reached. **Copy** puts it all on the clipboard.
@@ -121,6 +129,7 @@ open it again and tap **Start**.
 | CarPlay drops after about 30-40 s on a wireless box | CAR# reconnects by itself; after the first minute it usually stays. If it keeps dropping, use USB, and send us the logs. |
 | "To switch to …, close CAR#" | See [Switching between USB and a wireless box](#switching-between-usb-and-a-wireless-box). |
 | The car's screen stutters, freezes, or stops responding to touch | Settings › Box › **Video to the car**: choose a lower rate, or **The iPhone's own**. Send us the logs and the car or screen model. |
+| A car with its own wireless CarPlay stays on "Connecting to …" | Connect the car's own wireless CarPlay first (or pick the iPhone in the car's list), then tap Start in CAR#. See [A car with its own wireless CarPlay](#a-car-with-its-own-wireless-carplay). Still nothing: use USB. |
 | Taps on the mirrored iPhone do nothing | Turn on Settings › Accessibility › **Zoom** on the iPhone ([how](https://www.tarplay.com/zoom)), then mirror again. |
 | The phone's screen is black, or only shows a status page | Normal: CarPlay is on the car's screen. Turn on Settings › Show CarPlay on this iPhone to see it on the phone too. |
 
