@@ -76,8 +76,22 @@ video):
 
 While mirroring, the bar on the car's screen has the iPhone's own buttons (Home, app switcher, volume, Siri, lock)
 and the layouts: picture in picture, split, and full screen. In picture in picture the bar sits beside the iPhone's
-window and moves with it: drag the handle sideways to move
-the iPhone's window.
+window and moves with it: drag the handle sideways to move the iPhone's window.
+
+### Controlling the iPhone from the car's screen
+
+While mirroring, tap on the iPhone's picture on the car's screen and the tap lands on the iPhone. The bar's buttons
+work the same way: the iPhone's **Home**, **App Switcher**, volume, **Siri** and **Lock**. CAR# runs on the same
+iPhone, so there's nothing to pair or allow; iOS only needs **Zoom** switched on:
+
+**Turning on Zoom** (on the iPhone): Settings › Accessibility › **Zoom**, then switch **Zoom** on. Zoom itself only
+magnifies when you double-tap with three fingers, so it doesn't change how the iPhone looks; iOS just needs it on to
+take touches from another screen. Step by step, with pictures: [tarplay.com/zoom](https://www.tarplay.com/zoom).
+Apple's guide: [Zoom in on the iPhone screen](https://support.apple.com/guide/iphone/zoom-in-iph3e2e367e/ios).
+
+| Settings › Accessibility › Zoom | Zoom on |
+|---|---|
+| ![Accessibility settings with Zoom](../screenshots/iphone-zoom-accessibility.png) | ![Zoom switched on](../screenshots/iphone-zoom-on.png) |
 
 To go back to CarPlay, open Control Center › Screen Mirroring › **Stop Mirroring**.
 
@@ -107,6 +121,7 @@ open it again and tap **Start**.
 | CarPlay drops after about 30-40 s on a wireless box | CAR# reconnects by itself; after the first minute it usually stays. If it keeps dropping, use USB, and send us the logs. |
 | "To switch to …, close CAR#" | See [Switching between USB and a wireless box](#switching-between-usb-and-a-wireless-box). |
 | The car's screen stutters, freezes, or stops responding to touch | Settings › Box › **Video to the car**: choose a lower rate, or **The iPhone's own**. Send us the logs and the car or screen model. |
+| Taps on the mirrored iPhone do nothing | Turn on Settings › Accessibility › **Zoom** on the iPhone ([how](https://www.tarplay.com/zoom)), then mirror again. |
 | The phone's screen is black, or only shows a status page | Normal: CarPlay is on the car's screen. Turn on Settings › Show CarPlay on this iPhone to see it on the phone too. |
 
 ## Sending logs
