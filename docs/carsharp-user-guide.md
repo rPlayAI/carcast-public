@@ -19,7 +19,26 @@ CAR# is in beta on TestFlight (invites go to supporters). It needs iOS 15 or lat
 
 Keep CAR# running while you drive. It can be in front, or you can switch to another app.
 
-Unplugging and plugging the cable back in is fine: CAR# keeps running and CarPlay comes back by itself.
+Unplugging and plugging the cable back in is fine: CAR# keeps running and CarPlay comes back by itself. Moving
+between cars is fine too: the first plug-in to a different car connects as well (it may take about 10 seconds).
+
+## The toolbar on the car's screen
+
+CAR# shows a small bar on the right edge of the car's screen: **Home** (the CarPlay dashboard), **Back**, and
+**Mode**. The top button is a **handle**:
+
+- **Tap** the handle to fold the bar to a small tab at the edge. Tap the tab to bring it back.
+- **Drag** the handle up or down to move the bar. CAR# remembers where you put it, for each car.
+
+## Cars with a rotary knob
+
+On a car with a knob (Mazda and others), the knob drives CarPlay as usual. To reach CAR#'s toolbar:
+
+1. **Double-press** the knob (or press and hold it, or hold Back). A white ring appears on the toolbar.
+2. **Turn** the knob (or nudge it up and down) to move the ring, and **press** to use the button.
+3. Press **Back**, nudge **left**, or leave it for 10 seconds to give the knob back to CarPlay.
+
+A single press still goes to CarPlay.
 
 ## Quick start (wireless CarPlay box)
 
@@ -43,6 +62,10 @@ video):
 2. Tap **Screen Mirroring** and choose **CAR#-xxxx (AirPlay)**.
 3. **The first try usually fails.** Tap Screen Mirroring and choose CAR# again: the second try connects.
 
+While mirroring, the bar on the car's screen has the iPhone's own buttons (Home, app switcher, volume, Siri, lock)
+and the layouts: picture in picture, split, and full screen. In picture in picture, drag the handle sideways to move
+the iPhone's window.
+
 To go back to CarPlay, open Control Center › Screen Mirroring › **Stop Mirroring**.
 
 ## Settings
@@ -53,6 +76,7 @@ To go back to CarPlay, open Control Center › Screen Mirroring › **Stop Mirro
 | **Box Wi-Fi** | The wireless box's Wi-Fi name and password. A CarPlay dongle's is usually like **smartBox-xxxx**, with the password **88888888** or **12345678**. **Forget** (in the Wi-Fi panel) clears it. |
 | **Join the box's Wi-Fi** | On: CAR# asks iOS to join the box's Wi-Fi. Off: you join it yourself in Settings › Wi-Fi. |
 | **Show CarPlay on this iPhone** | Off by default, which saves battery: the phone shows a status page and the car still gets everything. On: CarPlay also shows on the phone, in landscape. |
+| **Video to the car** | **Automatic** (the default): CAR# sends up to 10 Mbps and lowers it if the car falls behind. **Up to 6 / 4 / 2 Mbps**: for a car whose screen stutters. **The iPhone's own**: the iPhone's CarPlay picture as it is, without CAR#'s toolbar. |
 | **Wi-Fi box: USB's sequence (beta)** | Uses the same connection method for wireless boxes as for USB. Applies after CAR# is closed and opened again. |
 
 ## Switching between USB and a wireless box
@@ -69,6 +93,7 @@ open it again and tap **Start**.
 | iOS keeps asking to join the box's Wi-Fi | Join it once in Settings › Wi-Fi, then tap Start. |
 | CarPlay drops after about 30-40 s on a wireless box | CAR# reconnects by itself; after the first minute it usually stays. If it keeps dropping, use USB, and send us the logs. |
 | "To switch to …, close CAR#" | See [Switching between USB and a wireless box](#switching-between-usb-and-a-wireless-box). |
+| The car's screen stutters, freezes, or stops responding to touch | Settings › Box › **Video to the car**: choose a lower rate, or **The iPhone's own**. Send us the logs and the car or screen model. |
 | The phone's screen is black, or only shows a status page | Normal: CarPlay is on the car's screen. Turn on Settings › Show CarPlay on this iPhone to see it on the phone too. |
 
 ## Sending logs
