@@ -28,8 +28,14 @@ work. The network doesn't need internet; the iPhone keeps using mobile data for 
 
 - **TestFlight:** open [https://testflight.apple.com/join/mgpX2urq](https://testflight.apple.com/join/mgpX2urq) on the iPhone or iPad and install **iCarCast** from the TestFlight
   app.
-- **Sideloading:** download the `.ipa` from [Releases](https://github.com/rPlayAI/carcast-public/releases) when one is
-  posted, and install it with AltStore, SideStore or Sideloadly.
+- **Sideloading (iPad, receiver only):** download the iPad IPA and install it with AltStore, SideStore or Sideloadly
+  (with a free Apple ID, re-sign it every 7 days):
+  - [iPadOS 15 and later](https://github.com/rPlayAI/carcast-public/releases/tag/ios-ipad-1.0-15): `iCarCast-iPad-1.0-15.ipa`
+  - [Older iPads, iPadOS 12.2 to 14](https://github.com/rPlayAI/carcast-public/releases/tag/ios-ipad-legacy-1.0-15): `iCarCast-iPad-ios12.2-1.0-15.ipa` (experimental; no browser screen on
+    iPadOS 12)
+
+  The iPad IPA is the receiver end only: no Connect or This iPhone. The iPhone uses iCarCast from TestFlight and taps
+  **Connect**.
 
 On first launch, allow what CarCast asks for:
 

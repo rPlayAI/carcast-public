@@ -1,6 +1,6 @@
 # CarCast
 
-**iPhone and iPad (iCarCast):** [Join the TestFlight beta](https://testflight.apple.com/join/mgpX2urq) · [User guide](docs/icarcast-user-guide.md) ·
+**iPhone and iPad (iCarCast):** [Join the TestFlight beta](https://testflight.apple.com/join/mgpX2urq) · iPad IPA: [iPadOS 15+](https://github.com/rPlayAI/carcast-public/releases/tag/ios-ipad-1.0-15), [iPadOS 12.2–14](https://github.com/rPlayAI/carcast-public/releases/tag/ios-ipad-legacy-1.0-15) · [User guide](docs/icarcast-user-guide.md) ·
 [Wi-Fi and network guide](docs/ios-network-guide.md) · [Android Auto on iPad](docs/icarcast-user-guide.md#android-auto) ·
 [If a Wi-Fi network stopped working](docs/icarcast-user-guide.md#if-a-wi-fi-network-stopped-working)
 
@@ -132,6 +132,8 @@ CarCast subscribes to the iPhone's **Now Playing updates over iAP2**, as a car w
 ## iOS and iPadOS
 
 CarCast runs on an iPad or an iPhone as a wireless CarPlay screen (**iCarCast** on TestFlight). See the **[iCarCast user guide](docs/icarcast-user-guide.md)**.
+
+**iPad IPA (receiver only, to sideload):** [iCarCast for iPad, iPadOS 15 and later](https://github.com/rPlayAI/carcast-public/releases/tag/ios-ipad-1.0-15) · [older iPads, iPadOS 12.2 to 14 (experimental)](https://github.com/rPlayAI/carcast-public/releases/tag/ios-ipad-legacy-1.0-15). It turns the iPad into the CarPlay screen; it has no Connect or This iPhone, so the iPhone still uses iCarCast from TestFlight.
 
 **[iPhone and iPad guide](docs/ios.md)**: everything about CarCast on iOS and iPadOS, with screenshots.
 

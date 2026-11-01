@@ -1,5 +1,14 @@
 # Release notes
 
+## iCarCast for iPad 1.0 (15) — November 2026
+
+**For iPad only: the receiver end.** The iPad becomes the wireless CarPlay screen; it has no Connect or This iPhone,
+so the iPhone still uses iCarCast from TestFlight and taps **Connect**. Sideload with AltStore, SideStore or Sideloadly.
+
+- [iPadOS 15 and later](https://github.com/rPlayAI/carcast-public/releases/tag/ios-ipad-1.0-15): `iCarCast-iPad-1.0-15.ipa`.
+- [Older iPads, iPadOS 12.2 to 14](https://github.com/rPlayAI/carcast-public/releases/tag/ios-ipad-legacy-1.0-15): `iCarCast-iPad-ios12.2-1.0-15.ipa`. Experimental, not yet tested on an
+  iPadOS 12–14 iPad; please report your iPad model and version. No browser screen on iPadOS 12.
+
 ## Android 0.3.25 — October 2026
 
 [Download the APK](https://github.com/rPlayAI/carcast-public/releases/tag/android-0.3.25).
