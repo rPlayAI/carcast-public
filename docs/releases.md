@@ -9,6 +9,16 @@ so the iPhone still uses iCarCast from TestFlight and taps **Connect**. Sideload
 - [Older iPads, iPadOS 12.2 to 14](https://github.com/rPlayAI/carcast-public/releases/tag/ios-ipad-legacy-1.0-15): `iCarCast-iPad-ios12.2-1.0-15.ipa`. Experimental, not yet tested on an
   iPadOS 12–14 iPad; please report your iPad model and version. No browser screen on iPadOS 12.
 
+## Android 0.3.27 — November 2026
+
+[Download the APK](https://github.com/rPlayAI/carcast-public/releases/tag/android-0.3.27).
+
+- **AirPlay alongside CarPlay**: an iPhone on iOS 27 can screen-mirror while CarPlay runs; the mirror shows picture-in-picture over CarPlay, with its sound. Off by default: Settings › AirPlay › "AirPlay alongside CarPlay".
+- **…and pushed video** (optional): YouTube's AirPlay button plays the video full screen. Off by default (mirror only, no internet needed).
+- **Two-finger touch**: pinch and rotate in Maps.
+- **Fixes**: faster video recovery after a dropped frame; a crash when two audio streams ended together; a mirror session that never sends its screen is dropped.
+- **Test build**: it stops working 90 days after it was built (2027-02-04). Newer builds will be posted here.
+
 ## Android 0.3.25 — October 2026
 
 [Download the APK](https://github.com/rPlayAI/carcast-public/releases/tag/android-0.3.25).

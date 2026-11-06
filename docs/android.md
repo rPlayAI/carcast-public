@@ -2,7 +2,7 @@
 
 [← CarCast overview](../README.md)
 
-**Download:** [CarCast for Android 0.3.25](https://github.com/rPlayAI/carcast-public/releases/tag/android-0.3.25) (APK; test build, stops working after 90 days, on 2027-01-19).
+**Download:** [CarCast for Android 0.3.27](https://github.com/rPlayAI/carcast-public/releases/tag/android-0.3.27) (APK; test build, stops working after 90 days, on 2027-02-04).
 
 ![CarPlay with the CarPlay Ultra cluster on an Android tablet](../screenshots/android-carplay-ultra.png)
 
