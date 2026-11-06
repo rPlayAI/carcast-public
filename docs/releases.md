@@ -9,6 +9,15 @@ so the iPhone still uses iCarCast from TestFlight and taps **Connect**. Sideload
 - [Older iPads, iPadOS 12.2 to 14](https://github.com/rPlayAI/carcast-public/releases/tag/ios-ipad-legacy-1.0-15): `iCarCast-iPad-ios12.2-1.0-15.ipa`. Experimental, not yet tested on an
   iPadOS 12–14 iPad; please report your iPad model and version. No browser screen on iPadOS 12.
 
+## macOS preview — November 2026
+
+[Download the DMG](https://github.com/rPlayAI/carcast-public/releases/tag/macos-2026-11-06).
+
+- **Wired CarPlay over USB** in a window, with the instrument cluster, audio, Siri and calls, and CarPlay video playback (works on iOS 27.2).
+- **Protocol Inspector (preview)**: shows the last 20 messages of a session; the full inspector is available on request (info@vmlite.com).
+- **Apple silicon, macOS 13 or later.** Signed and notarized.
+- **Preview build**: it stops working on 2027-02-04. Newer builds will be posted here.
+
 ## Android 0.3.27 — November 2026
 
 [Download the APK](https://github.com/rPlayAI/carcast-public/releases/tag/android-0.3.27).
