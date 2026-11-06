@@ -2,8 +2,6 @@
 
 [← CarCast overview](../README.md)
 
-**Download:** [CarCast for macOS, preview](https://github.com/rPlayAI/carcast-public/releases/tag/macos-2026-11-06) (DMG, signed and notarized; Apple silicon, macOS 13 or later; stops working on 2027-02-04). In this public build the Protocol Inspector shows the last 20 messages of a session.
-
 ![CarPlay on macOS with CarCast](../screenshots/macos-carplay-home.png)
 
 *CarPlay from an iPhone 12 on **iOS 27.2** in a CarCast window on macOS. rPlayFling and rPlayTV are third-party CarPlay apps shown alongside the built-in ones; the side bar has the Home, Back and knob controls, plus screenshot and recording buttons.*
@@ -43,4 +41,4 @@
 - **Control:** sets how the Mac's mouse and keyboard drive the iPhone (relative mouse, absolute mouse or touch).
 - **Knob:** an on-screen rotary controller for head units without a touchscreen, also usable from the keyboard.
 
-Requirements: a Mac with Apple silicon (macOS 13 or later), an iPhone with CarPlay enabled, and a USB cable.
+Requirements: a Mac with Apple silicon or Intel, an iPhone with CarPlay enabled, and a USB cable.

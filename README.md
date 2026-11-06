@@ -109,8 +109,6 @@ CarCast subscribes to the iPhone's **Now Playing updates over iAP2**, as a car w
 
 *CarPlay from an iPhone 12 on **iOS 27.2** in a CarCast window on macOS. rPlayFling and rPlayTV are third-party CarPlay apps shown alongside the built-in ones; the side bar has the Home, Back and knob controls, plus screenshot and recording buttons.*
 
-**Download:** [CarCast for macOS, preview](https://github.com/rPlayAI/carcast-public/releases/tag/macos-2026-11-06) (DMG; Apple silicon, macOS 13 or later; the Protocol Inspector shows the last 20 messages).
-
 **[macOS guide](docs/macos.md)**: everything about CarCast on macOS, with screenshots.
 
 ## Windows
