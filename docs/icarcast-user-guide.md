@@ -222,7 +222,7 @@ The iPad (or iPhone) can be the screen for an Android phone too. It's experiment
 2. On the Android phone, once: open **Android Auto › Settings**, tap the **version** 10 times to unlock developer
    settings.
 3. On the Android phone, install **CarCast Launcher**
-   ([download the APK](https://github.com/rPlayAI/tarplay-public/releases/latest)) and open
+   ([download the APK](https://github.com/rPlayAI/carcast-public/releases/tag/launcher-1.0-beta.1)) and open
    it. It starts Android Auto's head unit server for you (**Start it for me** asks for an Accessibility permission,
    used only to tap *Start head unit server* in Android Auto's settings) and announces the phone on the network.
    Without the launcher: **⋮ › Start head unit server** in Android Auto's developer settings, again after each restart.
